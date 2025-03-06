@@ -12,6 +12,8 @@ class PersonalInfo:
         self.contact_number = contact_number
         self.emergency_contact_number = emergency_contact_number
 
+
+
     def save(self):
         personal_info_data = {
             "Name": self.name,
